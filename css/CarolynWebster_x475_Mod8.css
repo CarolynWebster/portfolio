@@ -1,0 +1,286 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face{
+	font-family: 'Raleway', sans-serif;
+}
+
+.nameHead{
+	font-size: 50px;
+	color: #db4040;
+	line-height: 1.25;
+}
+
+.underBarTxt{
+	text-align: center;
+	line-height: 3;
+}
+
+h3{
+		line-height: .1;
+}
+
+a, h1{
+	color:#db4040;
+}
+
+.workLinks{
+	color: #3d4045;
+}
+
+.solution {
+    margin-bottom: .5em;
+}
+
+.workLinks a:link {color: #FFF;}
+.workLinks a:visited {color: #9C9C9C;}
+.workLinks a:active {color: #db4040;}
+.workLinks a:hover {color: #db4040;}
+
+h5{
+	color: #3d4045;
+}
+
+a{
+	text-decoration-line: underline;
+	text-decoration: underline;
+}
+.redHeaders{
+	font-size: 48px;
+	color: #db4040;
+	text-align: center;
+	font-family: 'Teko', sans-serif;
+}
+
+.copyCredit{
+	font-size: 10px;
+}
+
+section{
+	text-align: center;
+}
+
+body{
+	font-family: 'Raleway', sans-serif;
+	padding-top: 50px;
+}
+
+.resume-headText{
+	text-align: center;
+}
+.jumbotron{
+	background-color: #3d4045;
+	text-align: left;
+	padding: 0;
+	padding-bottom: 10px;
+	color:#FFFFFF;
+}
+.workSquares, .media-body{
+	padding-bottom: 50px;
+}
+
+.workSquares, a:link, a:visited{
+	color: #3d4045;
+	align-content: center;
+	text-align: center;
+}
+
+.workSquares, a:hover, a:active{
+	color: #db4040;
+}
+
+.workLinks{
+	color: #ffffff;
+}
+.navbar-collapse{
+	background: #f8f8f8;
+}
+
+.navbar-toggle{
+	background: #f8f8f8;
+}
+
+.resumeHeadImg img{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+.contactInfo{
+	text-align: center;
+	color: #db4040;
+}
+.resumeTopper{
+	background-color: #3d4045;
+	text-align: left;
+	padding: 10px;
+	margin: 0;
+	color:#FFFFFF;
+}
+
+.jumbotron h1, .jumbotron p, .jumbotron h2{
+    color: #fff;
+}
+
+.jumbotron col-xs-12 col-lg-6{
+	vertical-align: middle;
+	padding-bottom: 5px;
+}
+
+.navbar-fixed-top{
+	height:50px;
+}
+
+.nav.navbar-nav li a:link, li a:visited{
+	text-decoration: none;
+    color:#3d4045;
+}
+
+.nav.navbar-nav li a:active, .nav.navbar-nav li a:hover{
+	color: #db4040; /*knife red*/
+}
+
+.navbar-right{
+    height:50px;
+}
+
+.navbar-right img{
+    margin-right: -15px;
+}
+
+.btn-primary {
+    background: #db4040;
+    color: #ffffff;
+	border-style: none;
+	width: 75%;
+	height: 40px;
+	vertical-align: middle;
+}
+
+.btn-primary:hover, .btn-primary:active{
+    background: #db4040;
+}
+
+.row.resumeRow{
+	margin: 10px;
+	
+}
+
+.menuSelect{
+	color:#db4040;
+}
+
+h4{
+	color:#db4040;
+}
+
+.anchor{
+	display: block; 
+	position: relative;
+	top: -50px; 
+}
+
+.employer{
+	color:#3D4045;
+	
+}
+/* 
+
+Define this in your CSS 
+.ease-in-outTransition = Replace it by the name you want to give your transition
+
+*/
+
+.btn-primary {
+    /*Add a property and value that you like to transition. Ex: width:200px;*/
+    /* For Safari 3.1 to 6.0 */
+    -webkit-transition-property: width, height;
+    /*property*/
+    ;
+    -webkit-transition-duration: .5s;
+    /*Control the transition duration*/
+    -webkit-transition-timing-function: ease-in-out;
+    /*Control the transitionfunction*/
+    -webkit-transition-delay: 0s;
+    /*Control the transition start delay*/
+    /* Opera */
+    -o-transition-property: width, height;
+    /*property*/
+    ;
+    -o-transition-duration: .5s;
+    -o-transition-timing-function: ease-in-out;
+    -o-transition-delay: 0s;
+    /* Firefox */
+    -moz-transition-property: width, height;
+    /*property*/
+    ;
+    -moz-transition-duration: .5s;
+    -moz-transition-timing-function: ease-in-out;
+    -moz-transition-delay: 0s;
+    /* Standard syntax */
+    transition-property: width, height;
+    /*property*/
+    ;
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+}
+/*Pick the action to trigger the animation - Ex: hover */
+
+.btn-primary:hover {
+	width: 85%;
+	height: 50px;
+    /*Set the final value for which you would like the property to transition to. Ex: width:500px;*/
+}
+
+.carousel-caption{
+	color: #3d4045;
+	text-shadow: none;
+    position: relative;
+    left: auto;
+    right: auto;
+}
+
+.carousel-control{
+	width: 8%;
+	background-color:#E2E2E2;
+	opacity: .5;
+}
+
+.carousel-control.left, .carousel-control.right {
+  background:none !important;
+  filter: progid: none !important;
+  filter:none !important;
+  background-image:none;
+  outline: 0;
+  opacity: 1;
+ }
+
+.glyphicon-chevron-left, .glyphicon-chevron-right{
+	color:#3d4045;
+}
+.glyphicon-chevron-left:hover, .glyphicon-chevron-left:focus, .glyphicon-chevron-left:active, .glyphicon-chevron-left.active, .glyphicon-chevron-right:hover, .glyphicon-chevron-right:focus, .glyphicon-chevron-right:active, .glyphicon-chevron-right.active{
+    color: #db4040;
+}
+
+.fixed-ratio-resize { /* basic responsive img */
+	max-height: 100%;
+	max-width: 100%;
+	width: auto;
+	height: auto\9; /* IE8 */
+}
+.btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {background-color:#db4040;}
+.btn-primary {background-color:#db4040;}
+.btn-primary:hover, btn-primary:active {background-color:#db4040;}
+.btn-primary:active:hover, .btn-primary.active:hover, .open > .dropdown-toggle.btn-primary:hover, .btn-primary:active:focus, .btn-primary.active:focus, .open > .dropdown-toggle.btn-primary:focus, .btn-primary:active.focus, .btn-primary.active.focus, .open > .dropdown-toggle.btn-primary.focus {background-color:#db4040;}
+.btn-primary:focus, .btn-primary.focus {background-color:#db4040;}
+
+@media screen and (max-width : 769px) {
+        #knifeImg{
+             display: none;
+        }
+    }
+
+#knifeImg{
+	vertical-align: middle;
+	padding-top: 10px;
+}
